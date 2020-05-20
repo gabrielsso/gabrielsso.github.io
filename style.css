@@ -1,0 +1,100 @@
+.mainbody{
+    background-image: url("imgs/blackorchid.png");
+}
+
+.header {
+    padding: 40px;
+    text-align: center;
+    background: #000000;
+    color: white;
+    font-size: 30px;
+  }
+
+  .navbar{
+      overflow: hidden;
+      background-color: rgba(80, 80, 80, 0.100);
+      position: sticky;
+      top: 0;
+  }
+
+  .navbar a{
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 10px 25px;
+      text-decoration: none;
+  }
+
+  .navbar a:hover{
+      background-color: gray;
+      color: black;
+  }
+
+  .content_main{
+    font-family: "Alatsi";
+    color: white;
+    text-align: center;
+}
+
+.content_p{
+    font-family: "Alatsi";
+    color: rgb(122, 122, 122);
+}
+
+.clip_circle{
+    clip-path: circle(100px at center);
+}
+
+.content_sections{
+    overflow: auto;
+    padding: 30px;
+    margin: auto;
+    width: 60%;
+}
+
+.nav {
+    overflow: auto;
+    background-color: rgba(41, 41, 41, 0.150); 
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+  
+.nav li {
+    background-color: rgba(97, 97, 97, 0.5);
+    border: 2px solid white;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.project_content{
+    overflow: auto;
+    color: white;
+    background-color: rgba(211, 211, 211, 0.075);
+    margin: auto;
+    border: 3px solid white;
+    width: 60%;
+}
+
+.project_content img{
+    float: left;
+    width: 35%;
+    height: auto;
+}
+
+.project_content a{
+    text-decoration: none;
+    color: wheat;
+}
+
+.project_content a:hover{
+    color: aquamarine;
+}
